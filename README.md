@@ -1,7 +1,3 @@
-Template para os projetos de API, ensinando na utilização do repositório digital "GitHub". 
-
-Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos estudantes envolvidos
-
 # Índice
 * [Objetivo do Projeto](#objetivo-do-projeto)
 * [Equipe](#Equipe)
@@ -11,9 +7,7 @@ Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividad
 
 
 # Projeto (API) 
-Projeto pedagógico alicerçado na Metodologia API para ensino-aprendizado focado no desenvolvimento de competências e fundamentada nos pilares de aprendizado com problemas reais (RPBL), validação externa e mentalidade ágil. 
-Uso de estratégias para entender o problema, conceber uma solução viável ao desenvolver e implementar o MVP seguido de sua operação (CDIO). 
-Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da Fatec SJC com definição das datas do kickoff e das sprint
+O projeto está atualmente em fase de desenvolvimento, sendo projetado como uma plataforma web intuitiva e segura focada na experiência inicial do usuário. O sistema contará com uma tela de cadastro para o registro de novos perfis, uma tela de login para autenticação segura e uma página inicial com navegação fluida, permitindo que o usuário acesse e transite pelas futuras funcionalidades da plataforma de forma simples e rápida.
 
 # Equipe
 |    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
@@ -48,16 +42,16 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 
 | Rank | Prioridade | User Story                                                                                                                                              | Estimativa | Sprint |
 |------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------|
-| 1    | Alta       | Planejamento do projeto                                                    | 5          | 1      |
-| 2    | Alta       | Desenvolvimento da tela de login                                                                    | 8          | 1      |
-| 3    | Alta       | Criação do protótipo no Figma                                               | 5          | 2      |
-| ...  | Média      | Desenvolvimento da tela de cadastro                                                                                                                                                    | ...        | ...    |
-| 17   | Baixa      | wireframes/mockup     | 2          | 3      |
-| ...  | Média      | Criação da página inicial                                                                                                                                                     | ...        | ...    |
-| ...  | Média      | Sistema básico de navegação                                                                                                                                                     | ...        | ...    |
-| ...  | Média      | Testes iniciais e correção de bugs                                                                                                                                                     | ...        | ...    |
-| ...  | Média      | Burndown da sprint                                                                                                                                                    | ...        | ...    |
-| ...  | Média      | Criação dos Slides                                                                                                                                                     | ...        | ...    |
+| 1    | Alta       | Planejamento do projeto                                                    | 2          | 1      |
+| 2    | Alta       | Desenvolvimento da tela de login                                                                    | 3          | 1      |
+| 3    | Alta       | Criação do protótipo no Figma                                               | 5          | 1      |
+| ...  | Alta      | Desenvolvimento da tela de cadastro                                                                                                                                                    | 3        | 1    |
+| 17   | Baixa      | wireframes/mockup     | 2          | 1      |
+| ...  | Média      | Criação da página inicial                                                                                                                                                     | 4        | 1    |
+| ...  | Média      | Sistema básico de navegação                                                                                                                                                     | 2        | 1    |
+| ...  | Média      | Testes iniciais e correção de bugs                                                                                                                                                     | 3        | 1    |
+| ...  | Baixa      | Burndown da sprint                                                                                                                                                    | 1        | 1    |
+| ...  | Média      | Criação dos Slides                                                                                                                                                     | 2        | 1    |
 
 
 
@@ -69,7 +63,7 @@ Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma 
 
 | Sprint            | Previsão   | Status   | Histórico |
 |-------------------|------------|----------|-----------|
-| 01                | dd/mm/aaaa | a fazer  | [MVP](MVP/sp1.md)  |
+| 01                | 20/05/2026 | feito  | [MVP](MVP/sp1.md)  |
 | 02                | dd/mm/aaaa | a fazer  | [MVP](MVP/sp2.md)  |
 | 03                | dd/mm/aaaa | a fazer  | [MVP](MVP/sp3.md)  |
 | Feira de Soluções | dd/mm/aaaa | a fazer  | [MVP](#)  |
