@@ -19,12 +19,12 @@ O projeto está atualmente em fase de desenvolvimento, sendo projetado como uma 
 |  Team Member  | Murilo                 |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/murilomartins190)   |
 
 # Objetivo do Projeto
-Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma GitHub, visando:
-* Centralizar os trabalhos e projetos;
-* Organizar e estruturar as informações;
-* Versionar e controlar as alterações;
-* Facilitar o compartilhamento e feedback;
-* Desenvolver habilidades técnicas.
+Este projeto tem como objetivo ajudar e facilitar o aprendizado da programação, visando:
+* Criar um portal de entrada amigável;
+* Organizar o fluxo de conteúdos;
+* Garantir uma navegação simplificada;
+* Entregar um sistema funcional e estável;
+* Estimular o aprendizado autônomo.
 
 
 ## Tecnologias Utilizadas
