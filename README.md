@@ -45,13 +45,13 @@ Este projeto tem como objetivo ajudar e facilitar o aprendizado da programação
 | 1    | Alta       | Planejamento do projeto                                                    | 2          | 1      |
 | 2    | Alta       | Desenvolvimento da tela de login                                                                    | 3          | 1      |
 | 3    | Alta       | Criação do protótipo no Figma                                               | 5          | 1      |
-| ...  | Alta      | Desenvolvimento da tela de cadastro                                                                                                                                                    | 3        | 1    |
-| 17   | Baixa      | wireframes/mockup     | 2          | 1      |
-| ...  | Média      | Criação da página inicial                                                                                                                                                     | 4        | 1    |
-| ...  | Média      | Sistema básico de navegação                                                                                                                                                     | 2        | 1    |
-| ...  | Média      | Testes iniciais e correção de bugs                                                                                                                                                     | 3        | 1    |
-| ...  | Baixa      | Burndown da sprint                                                                                                                                                    | 1        | 1    |
-| ...  | Média      | Criação dos Slides                                                                                                                                                     | 2        | 1    |
+| 4  | Alta      | Desenvolvimento da tela de cadastro                                                                                                                                                    | 3        | 1    |
+| 5   | Baixa      | wireframes/mockup     | 2          | 1      |
+| 6  | Média      | Criação da página inicial                                                                                                                                                     | 4        | 1    |
+| 7  | Média      | Sistema básico de navegação                                                                                                                                                     | 2        | 1    |
+| 8  | Média      | Testes iniciais e correção de bugs                                                                                                                                                     | 3        | 1    |
+| 9  | Baixa      | Burndown da sprint                                                                                                                                                    | 1        | 1    |
+| 10  | Média      | Criação dos Slides                                                                                                                                                     | 2        | 1    |
 
 
 
