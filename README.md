@@ -29,12 +29,10 @@ Este projeto tem como objetivo ajudar e facilitar o aprendizado da programação
 
 ## Tecnologias Utilizadas
 
-* Jira Software
-* Power BI
-* Microsoft Excel
-* Slack
-* Python (Colab)
-* Mysql
+* JavaScript      
+* HTML
+* CSS
+
 
 
 
