@@ -141,53 +141,78 @@ function showToast(msg){
 function foxMark(size){
     size = size || 28;
     return '<svg width="'+size+'" height="'+size+'" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">'+
-        '<polygon points="50,8 20,30 50,46 80,30" fill="#f97316"/>'+
-        '<polygon points="20,30 8,2 38,22" fill="#f97316"/>'+
-        '<polygon points="80,30 92,2 62,22" fill="#f97316"/>'+
-        '<polygon points="20,30 8,2 22,24" fill="#1e293b" opacity=".55"/>'+
-        '<polygon points="80,30 92,2 78,24" fill="#1e293b" opacity=".55"/>'+
-        '<polygon points="50,46 20,30 26,62 50,80" fill="#ea580c"/>'+
-        '<polygon points="50,46 80,30 74,62 50,80" fill="#f97316"/>'+
-        '<polygon points="50,80 30,58 50,66 70,58" fill="#fff"/>'+
-        '<polygon points="50,66 42,76 50,84 58,76" fill="#1e293b"/>'+
+      ''+
+      '<polygon points="20,45 25,15 45,40" fill="#ea580c"/>'+
+      '<polygon points="80,45 75,15 55,40" fill="#ea580c"/>'+
+      '<polygon points="23,40 27,20 41,37" fill="#f97316"/>'+
+      '<polygon points="77,40 73,20 59,37" fill="#f97316"/>'+
+      ''+
+      '<polygon points="20,45 50,70 15,65" fill="#f1f5f9"/>'+
+      '<polygon points="80,45 50,70 85,65" fill="#f1f5f9"/>'+
+      ''+
+      '<polygon points="20,45 80,45 50,70" fill="#f97316"/>'+
+      '<polygon points="35,45 65,45 50,58" fill="#ea580c"/>'+
+      ''+
+      '<circle cx="38" cy="48" r="4" fill="#0f172a"/>'+
+      '<circle cx="62" cy="48" r="4" fill="#0f172a"/>'+
+      ''+
+      '<polygon points="46,65 54,65 50,70" fill="#0f172a"/>'+
     '</svg>';
-}
+  }
 
-function foxIllustration(){
+  function foxIllustration(){
     return '<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" class="visual-fox">'+
-        '<defs><linearGradient id="fg1" x1="0" y1="0" x2="1" y2="1">'+
-        '<stop offset="0%" stop-color="#fdba74"/><stop offset="100%" stop-color="#ea580c"/></linearGradient></defs>'+
-        '<polygon points="150,30 95,85 150,120 205,85" fill="url(#fg1)"/>'+
-        '<polygon points="95,85 60,15 130,55" fill="url(#fg1)"/>'+
-        '<polygon points="205,85 240,15 170,55" fill="url(#fg1)"/>'+
-        '<polygon points="95,85 60,15 88,60" fill="#7c2d12" opacity=".5"/>'+
-        '<polygon points="205,85 240,15 212,60" fill="#7c2d12" opacity=".5"/>'+
-        '<polygon points="150,120 95,85 105,170 150,210" fill="#ea580c"/>'+
-        '<polygon points="150,120 205,85 195,170 150,210" fill="#f97316"/>'+
-        '<polygon points="150,210 110,160 150,180 190,160" fill="#fff" opacity=".95"/>'+
-        '<polygon points="150,180 132,200 150,220 168,200" fill="#1e293b"/>'+
-        '<circle cx="120" cy="95" r="5" fill="#1e293b"/><circle cx="180" cy="95" r="5" fill="#1e293b"/>'+
-        '<polygon points="150,210 130,260 150,290 170,260" fill="#fdba74" opacity=".9"/>'+
+      '<defs><linearGradient id="foxGrad" x1="0" y1="0" x2="0" y2="1">'+
+      '<stop offset="0%" stop-color="#f97316"/><stop offset="100%" stop-color="#ea580c"/></linearGradient></defs>'+
+      ''+
+      '<polygon points="60,130 80,40 140,110" fill="#ea580c"/>'+
+      '<polygon points="240,130 220,40 160,110" fill="#ea580c"/>'+
+      '<polygon points="70,120 85,55 130,105" fill="#475569"/>'+
+      '<polygon points="230,120 215,55 170,105" fill="#475569"/>'+
+      ''+
+      '<polygon points="50,130 150,210 30,190" fill="#f1f5f9"/>'+
+      '<polygon points="250,130 150,210 270,190" fill="#f1f5f9"/>'+
+      ''+
+      '<polygon points="50,130 250,130 150,210" fill="url(#foxGrad)"/>'+
+      ''+
+      '<polygon points="110,130 190,130 150,165" fill="#fbebde" opacity=".3"/>'+
+      ''+
+      '<ellipse cx="115" cy="140" rx="7" ry="9" fill="#0f172a"/>'+
+      '<ellipse cx="185" cy="140" rx="7" ry="9" fill="#0f172a"/>'+
+      '<circle cx="117" cy="138" r="2.5" fill="#fff"/>'+
+      '<circle cx="187" cy="138" r="2.5" fill="#fff"/>'+
+      ''+
+      '<polygon points="138,198 162,198 150,210" fill="#0f172a"/>'+
     '</svg>';
-}
+  }
 
-function mascotIllustration(){
+  function mascotIllustration(){
     return '<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg" class="mascot-fox">'+
-        '<ellipse cx="100" cy="205" rx="55" ry="10" fill="#000" opacity=".25"/>'+
-        '<polygon points="100,20 65,60 100,82 135,60" fill="#f97316"/>'+
-        '<polygon points="65,60 42,18 90,38" fill="#f97316"/>'+
-        '<polygon points="135,60 158,18 110,38" fill="#f97316"/>'+
-        '<polygon points="65,60 42,18 62,46" fill="#7c2d12" opacity=".5"/>'+
-        '<polygon points="135,60 158,18 138,46" fill="#7c2d12" opacity=".5"/>'+
-        '<rect x="62" y="78" width="76" height="86" rx="22" fill="#1e293b"/>'+
-        '<polygon points="100,82 65,60 72,116 100,140" fill="#ea580c"/>'+
-        '<polygon points="100,82 135,60 128,116 100,140" fill="#f97316"/>'+
-        '<polygon points="100,140 80,108 100,122 120,108" fill="#fff"/>'+
-        '<circle cx="84" cy="68" r="4.5" fill="#1e293b"/><circle cx="116" cy="68" r="4.5" fill="#1e293b"/>'+
-        '<polygon points="100,122 90,134 100,144 110,134" fill="#1e293b"/>'+
-        '<circle cx="100" cy="166" r="14" fill="#f97316"/>'+
+      ''+
+      '<ellipse cx="100" cy="205" rx="55" ry="10" fill="#000" opacity=".2"/>'+
+      ''+
+      '<polygon points="45,90 55,30 95,75" fill="#ea580c"/>'+
+      '<polygon points="155,90 145,30 105,75" fill="#ea580c"/>'+
+      '<polygon points="52,82 60,42 90,72" fill="#fbebde"/>'+
+      '<polygon points="148,82 140,42 110,72" fill="#fbebde"/>'+
+      ''+
+      '<rect x="65" y="125" width="70" height="75" rx="16" fill="#1e293b"/>'+
+      ''+
+      '<text x="100" y="165" fill="#f97316" font-family="monospace" font-weight="bold" font-size="16" text-anchor="middle">&lt;/&gt;</text>'+
+      ''+
+      '<polygon points="40,90 100,150 25,135" fill="#f1f5f9"/>'+
+      '<polygon points="160,90 100,150 175,135" fill="#f1f5f9"/>'+
+      ''+
+      '<polygon points="40,90 160,90 100,150" fill="#f97316"/>'+
+      ''+
+      '<circle cx="75" cy="105" r="6" fill="#1e293b"/>'+
+      '<circle cx="125" cy="105" r="6" fill="#1e293b"/>'+
+      '<circle cx="77" cy="103" r="2" fill="#fff"/>'+
+      '<circle cx="127" cy="103" r="2" fill="#fff"/>'+
+      ''+
+      '<circle cx="100" cy="142" r="4.5" fill="#1e293b"/>'+
     '</svg>';
-}
+  }
 
 function starDots(){
     let s=''; const positions=[[8,12],[22,6],[40,18],[60,9],[78,15],[90,24],[15,40],[35,55],[55,38],[70,50],[85,60],[12,70],[30,80],[50,72],[65,85],[88,78],[20,92],[45,90],[75,95]];
@@ -210,8 +235,12 @@ function renderAuth(){
     const isLogin = state.authMode==='login';
     return '<div id="authScreen">'+
         '<div id="authForm">'+
-            '<div class="logo-mark">'+foxMark(34)+'<span class="name">Dev<span class="fox">Fox</span></span></div>'+
+            ''+
+            '<div class="logo-mark" style="margin-bottom: 40px; font-family: \'Sora\', sans-serif; font-size: 1.8rem; font-weight: 800; color: #fff;">'+
+                'Dev<span style="color: #f97316;">Fox</span>'+ 
+            '</div>'+
             (isLogin ?
+/* ... resto da função permanece exatamente igual ... */
                 ('<div><div class="auth-title">Bem-vindo de volta!</div><p class="auth-sub">Faça login para continuar sua jornada de aprendizado.</p></div>'+
                 '<form data-form="login" novalidate>'+
                     '<div class="field"><label for="loginEmail">E-mail</label><div class="input-wrap">'+icon('mail')+'<input id="loginEmail" type="email" placeholder="Digite seu e-mail" autocomplete="username"></div></div>'+
@@ -241,11 +270,8 @@ function renderAuth(){
             )+
         '</div>'+
         '<div id="authVisual">'+
+            '<img src="image.png" alt="Ilustração DevFox" class="auth-side-image">'+
             '<div class="visual-stars">'+starDots()+'</div>'+
-            '<div class="visual-content">'+
-                foxIllustration()+
-                '<div class="visual-tag">&lt;/&gt; aprenda. pratique. construa.</div>'+
-            '</div>'+
             '<div class="code-chip c1">const dev = new DevFox();</div>'+
             '<div class="code-chip c2">streak++; // 12 dias seguidos</div>'+
         '</div>'+
@@ -306,7 +332,10 @@ function renderDashboard(){
             '<button class="btn btn-primary" data-action="open-exercise" data-id="soma-dois-numeros">Continuar aprendendo '+icon('arrowRight')+'</button>'+
             '<button class="btn btn-outline" data-action="nav" data-view="trilhas">Explorar trilhas</button>'+
         '</div></div>'+
-        '<div class="hero-art">'+foxIllustration()+'</div>'+
+        ''+
+        '<div class="hero-art">'+
+            '<img src="image.png" alt="DevFox" class="visual-fox">'+
+        '</div>'+
     '</div>'+
     '<div class="stat-grid">'+
         statCard('award','Nível', u.nivel, u.titulo)+
