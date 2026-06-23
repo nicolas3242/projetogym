@@ -61,7 +61,7 @@ Este projeto tem como objetivo ajudar e facilitar o aprendizado da programação
 
 | Sprint            | Previsão   | Status   | Histórico |
 |-------------------|------------|----------|-----------|
-| 01                | 20/05/2026 | feito  | [MVP](MVP/sp1.md)  |
+| 01                | 20/05/2026 | feito  | [MVP](https://nicolas3242.github.io/CodeQuest-DevFox/)  |
 | 02                | dd/mm/aaaa | a fazer  | [MVP](MVP/sp2.md)  |
 | 03                | dd/mm/aaaa | a fazer  | [MVP](MVP/sp3.md)  |
 | Feira de Soluções | dd/mm/aaaa | a fazer  | [MVP](#)  |
