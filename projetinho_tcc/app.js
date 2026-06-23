@@ -240,7 +240,6 @@ function renderAuth(){
                 'Dev<span style="color: #f97316;">Fox</span>'+ 
             '</div>'+
             (isLogin ?
-/* ... resto da função permanece exatamente igual ... */
                 ('<div><div class="auth-title">Bem-vindo de volta!</div><p class="auth-sub">Faça login para continuar sua jornada de aprendizado.</p></div>'+
                 '<form data-form="login" novalidate>'+
                     '<div class="field"><label for="loginEmail">E-mail</label><div class="input-wrap">'+icon('mail')+'<input id="loginEmail" type="email" placeholder="Digite seu e-mail" autocomplete="username"></div></div>'+
@@ -270,7 +269,8 @@ function renderAuth(){
             )+
         '</div>'+
         '<div id="authVisual">'+
-            '<img src="image.png" alt="Ilustração DevFox" class="auth-side-image">'+
+        /*colocar imagem ↓*/
+            '<img src="img/image.png" alt="Ilustração DevFox" class="auth-side-image">'+
             '<div class="visual-stars">'+starDots()+'</div>'+
             '<div class="code-chip c1">const dev = new DevFox();</div>'+
             '<div class="code-chip c2">streak++; // 12 dias seguidos</div>'+
@@ -334,7 +334,8 @@ function renderDashboard(){
         '</div></div>'+
         ''+
         '<div class="hero-art">'+
-            '<img src="image.png" alt="DevFox" class="visual-fox">'+
+            /*colocar imagem ↓*/
+            '<img src="img/image.png" alt="DevFox" class="visual-fox">'+
         '</div>'+
     '</div>'+
     '<div class="stat-grid">'+
